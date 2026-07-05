@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>さくらさくら カラオケ</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <p class="kicker">口腔ケア歌唱</p>
+        <h1>さくらさくら</h1>
+      </header>
+
+      <section class="video-section" aria-label="カラオケ動画">
+        <video id="player" controls playsinline preload="metadata" src="assets/sakurasakura01.mp4"></video>
+      </section>
+
+      <section class="lyrics-section" aria-live="polite" aria-label="歌詞">
+        <div class="video-buttons">
+          <button id="play-from-start-button" type="button">最初から</button>
+          <button id="reset-button" type="button">やりなおす</button>
+        </div>
+        <div class="lyrics-large">
+          <p>さくら　さくら</p>
+          <p>のやまも　さとも</p>
+          <p>みわたす　かぎり</p>
+          <p>かすみか　くもか</p>
+          <p>あさひに　におう</p>
+          <p>さくら　さくら</p>
+          <p>はなざかり</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
